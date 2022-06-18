@@ -1,0 +1,40 @@
+body {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    background-color: #1f2937 ;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    float: left;
+    margin-left: 16px;
+}
+
+nav {
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    width: 80%;
+  
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    gap: 60px;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+ 
+}
