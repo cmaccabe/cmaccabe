@@ -58,7 +58,7 @@ h1 {
     margin-left: 80px;
 }
 
-p {
+.para {
     color: #e5e7eb;
     padding: 0;
     margin-left: 80px;
@@ -72,6 +72,7 @@ p {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .text   {
@@ -106,7 +107,27 @@ button {
     flex-basis: 18%;
     text-align: center;
     color: #1f2937;
-    font-weight: bold;
     margin: 6px;
+    font-size: 20px;
+}
+
+.quote, .person {
+    background-color: #e5e7eb;
+    margin: 0;
+    font-size: 36px;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 150px;
+    font-style: italic;
+}
+
+.person {
+    text-align: right;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    font-weight: bold;
 }
 
