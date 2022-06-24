@@ -81,7 +81,7 @@ img {
     margin-right: 40px;
 }
 
-button {
+.button {
    margin-left: 80px;
    background-color: #3882f6;
    color: #f9faf8;
@@ -114,14 +114,16 @@ button {
 .quote, .person {
     background-color: #e5e7eb;
     margin: 0;
-    font-size: 36px;
 }
 
 .quote {
     text-align: center;
     margin-top: 20px;
-    padding-top: 150px;
+    padding: 120px 200px 10px 200px;
     font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    overflow-wrap: break-word;
 }
 
 .person {
@@ -129,5 +131,10 @@ button {
     padding-right: 400px;
     padding-bottom: 100px;
     font-weight: bold;
+    font-size: 28px;
 }
 
+.container4 {
+    background-color: #3882f6;
+    text-align: center;
+}
