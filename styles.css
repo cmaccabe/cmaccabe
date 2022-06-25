@@ -135,6 +135,30 @@ img {
 }
 
 .container4 {
+    display: flex;
+    border-radius: 8px;
     background-color: #3882f6;
+    justify-content: center;
+    padding-left: 80px;
+    margin: 80px 200px;
+    padding: 30px 60px;
+}
+
+.signup {
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    border-radius: 4px;
+    color: #f9faf8;
+}
+
+.header, .text2 {
+    color: #f9faf8;
+    border: solid red;
+}
+
+.footer {
+    background-color: #1f2937;
     text-align: center;
+    color: #e5e7eb;
+    padding: 18px;
 }
