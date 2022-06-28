@@ -1,4 +1,4 @@
-### Hi there 👋
+This is a sample bio landing page
 
 <!--
 **cmaccabe/cmaccabe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
